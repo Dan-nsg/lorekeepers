@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60150e50d799154c98dba3708bf68b0, type: 3}
+  m_Name: Alucard Sword
+  m_EditorClassIdentifier: 
+  weaponID: 2
+  weaponName: Alucard Sword
+  weaponDescription: This is Alucard's Sword.
+  weaponDamage: 100
+  weaponImage: {fileID: 1862675950, guid: 34252ee34efcc0f419f4b7f7035a8db3, type: 3}
+  weaponAnimation: {fileID: 7400000, guid: 80104bc24bcb59e40a81de4ffc714d2f, type: 2}
+  collectWeaponMessage: Collected Alucard's Sword

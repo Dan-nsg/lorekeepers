@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     public float maxSpeed;
     public float jumpFoce;
     public Transform groundCheck;
+    public float fireRate;
+    public Weapons weaponEquipped;
 
     private float playerNormalSpeed;
     private Rigidbody2D playerRigidBody;
@@ -14,11 +16,16 @@ public class Player : MonoBehaviour
     private bool onGround;
     private bool jump = false;
     private bool doubleJump;
+    private Animator animator;
+    private Attack attack;
+    private float nextAttack;
 
     void Start()
     {
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerNormalSpeed = maxSpeed;
+        animator = GetComponent<Animator>();
+        attack = GetComponentInChildren<Attack>();
     }
 
     private void Update() 
@@ -32,6 +39,14 @@ public class Player : MonoBehaviour
             jump = true;
             if(!doubleJump && !onGround)
                 doubleJump = true;
+        }
+
+        if(Input.GetButtonDown("Fire1") && Time.time > nextAttack && weaponEquipped != null)
+        {
+            animator.SetTrigger("Attack");
+            attack.PlayAnimation(weaponEquipped.weaponAnimation);
+            nextAttack = Time.time + fireRate;
+
         }
     }
 
@@ -64,5 +79,11 @@ public class Player : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+    }
+
+    public void AddWeapon(Weapons weapon)
+    {
+        weaponEquipped = weapon;
+        attack.SetWeapon(weaponEquipped.weaponDamage);
     }
 }
