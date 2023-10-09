@@ -20,6 +20,7 @@ public class WeaponDrop : MonoBehaviour
         if(player != null)
         {
             player.AddWeapon(weapon);
+            Inventory.inventory.AddWeapon(weapon);
             Destroy(gameObject);
         }
     }
