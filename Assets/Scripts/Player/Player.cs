@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
         health = maxHealth;
         mana = maxMana;
         sprite = GetComponent<SpriteRenderer>();
+        FindAnyObjectByType<UIManager>().UpdateUI();
     }
 
     private void Update() 
@@ -71,6 +72,7 @@ public class Player : MonoBehaviour
             {
                 UseItem(item);
                 Inventory.inventory.RemoveItem(item);
+                FindAnyObjectByType<UIManager>().UpdateUI();
             }
         }
     }
@@ -83,6 +85,8 @@ public class Player : MonoBehaviour
 
             if(canDamage)
                 playerRigidBody.velocity = new Vector2(horizontal * playerNormalSpeed, playerRigidBody.velocity.y);
+
+            animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
             if(horizontal > 0 && !facingRight)
             {
@@ -151,6 +155,7 @@ public class Player : MonoBehaviour
     {
         canDamage = false;
         health -= (damage - defense);
+        FindObjectOfType<UIManager>().UpdateUI();
         if(health <= 0)
         {
             animator.SetTrigger("Dead");

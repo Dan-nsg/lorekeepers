@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI descriptionText;
     public Scrollbar scrollVertical;
     public TextMeshProUGUI healthText, manaText, strengthText, attackText, defenseText;
+    public TextMeshProUGUI healthUI, manaUI, knowledgeUI, potionUI;
 
     private bool pauseMenu = false;
     private int cursorIndex = 0;
@@ -40,6 +41,7 @@ public class UIManager : MonoBehaviour
             descriptionText.text = "";
             itemList.SetActive(false);
             optionPanel.SetActive(true);
+            UpdateUI();
             UpdateAttributes();
             if(pauseMenu)
             {
@@ -223,5 +225,13 @@ public class UIManager : MonoBehaviour
         strengthText.text = "Strength: " + player.strength;
         attackText.text = "Attack DMG: " + (player.strength + player.GetComponentInChildren<Attack>().GetDamage());
         defenseText.text = "Defense: " + player.defense;
+    }
+
+    public void UpdateUI()
+    {
+        healthUI.text = player.GetHealth() + " / " + player.maxHealth;
+        manaUI.text = player.GetMana() + " / " + player.maxMana;
+        knowledgeUI.text = "Knowledge: " + player.knowledge;
+        potionUI.text = "x" + inventory.CountItems(player.item);
     }
 }

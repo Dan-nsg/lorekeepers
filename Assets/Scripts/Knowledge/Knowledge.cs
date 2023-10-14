@@ -27,6 +27,7 @@ public class Knowledge : MonoBehaviour
         if(player != null)
         {
             player.knowledge += knowledge;
+            FindAnyObjectByType<UIManager>().UpdateUI();
             gameObject.SetActive(false);
         }
     }

@@ -18,6 +18,7 @@ public class ItemDrop : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             Inventory.inventory.AddItem(item);
+            FindAnyObjectByType<UIManager>().UpdateUI();
             Destroy(gameObject);
         }
     }

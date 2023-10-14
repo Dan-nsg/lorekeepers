@@ -67,6 +67,7 @@ public class Enemy : MonoBehaviour
             rb.velocity = Vector2.zero;
             anim.SetTrigger("Dead");
             FindObjectOfType<Player>().knowledge += knowledge;
+            FindObjectOfType<UIManager>().UpdateUI();
             if(item != null)
             {
                 GameObject tempItem = Instantiate(itemDrop, transform.position, transform.rotation);

@@ -62,4 +62,19 @@ public class Inventory : MonoBehaviour
             }
         }
     }
+
+    public int CountItems(ConsumableItem item)
+    {
+        int numberOfItems = 0;
+
+        for (int i = 0; i < items.Count ; i++)
+        {
+            if(item == items[i])
+            {
+                numberOfItems++;
+            }
+        }
+        
+        return numberOfItems;
+    }
 }
