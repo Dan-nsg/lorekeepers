@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class Player : MonoBehaviour
     public ConsumableItem item;
     public int maxHealth;
     public int maxMana;
+    public int strength;
+    public int defense;
+    public int knowledge;
 
     private float playerNormalSpeed;
     private Rigidbody2D playerRigidBody;
@@ -24,6 +28,10 @@ public class Player : MonoBehaviour
     private float nextAttack;
     private int health;
     private int mana;
+    private Armor armor;
+    private bool canDamage = true;
+    private SpriteRenderer sprite;
+    private bool isDead = false;
 
     void Start()
     {
@@ -31,56 +39,66 @@ public class Player : MonoBehaviour
         playerNormalSpeed = maxSpeed;
         animator = GetComponent<Animator>();
         attack = GetComponentInChildren<Attack>();
+        health = maxHealth;
+        mana = maxMana;
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Update() 
     {
-        onGround = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
-        if(onGround)
-            doubleJump = false;
-        
-        if(Input.GetButtonDown("Jump") && (onGround || !doubleJump))
+        if(!isDead)
         {
-            jump = true;
-            if(!doubleJump && !onGround)
-                doubleJump = true;
-        }
+            onGround = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+            if(onGround)
+                doubleJump = false;
+            
+            if(Input.GetButtonDown("Jump") && (onGround || !doubleJump))
+            {
+                jump = true;
+                if(!doubleJump && !onGround)
+                    doubleJump = true;
+            }
 
-        if(Input.GetButtonDown("Fire1") && Time.time > nextAttack && weaponEquipped != null)
-        {
-            animator.SetTrigger("Attack");
-            attack.PlayAnimation(weaponEquipped.weaponAnimation);
-            nextAttack = Time.time + fireRate;
+            if(Input.GetButtonDown("Fire1") && Time.time > nextAttack && weaponEquipped != null)
+            {
+                animator.SetTrigger("Attack");
+                attack.PlayAnimation(weaponEquipped.weaponAnimation);
+                nextAttack = Time.time + fireRate;
 
-        }
+            }
 
-        if(Input.GetButtonDown("Fire3"))
-        {
-            UseItem(item);
-            Inventory.inventory.RemoveItem(item);
+            if(Input.GetButtonDown("Fire3"))
+            {
+                UseItem(item);
+                Inventory.inventory.RemoveItem(item);
+            }
         }
     }
 
     private void FixedUpdate() 
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        
-        playerRigidBody.velocity = new Vector2(horizontal * playerNormalSpeed, playerRigidBody.velocity.y);
+        if(!isDead)
+        {
+            float horizontal = Input.GetAxisRaw("Horizontal");
 
-        if(horizontal > 0 && !facingRight)
-        {
-            Flip();
-        }
-        else if(horizontal < 0 && facingRight)
-        {
-            Flip();
-        }
+            if(canDamage)
+                playerRigidBody.velocity = new Vector2(horizontal * playerNormalSpeed, playerRigidBody.velocity.y);
 
-        if(jump)
-        {
-            playerRigidBody.velocity = Vector2.zero;
-            playerRigidBody.AddForce(Vector2.up * jumpFoce);
-            jump = false;
+            if(horizontal > 0 && !facingRight)
+            {
+                Flip();
+            }
+            else if(horizontal < 0 && facingRight)
+            {
+                Flip();
+            }
+
+            if(jump)
+            {
+                playerRigidBody.velocity = Vector2.zero;
+                playerRigidBody.AddForce(Vector2.up * jumpFoce);
+                jump = false;
+            }
         }
     }
 
@@ -98,6 +116,12 @@ public class Player : MonoBehaviour
         attack.SetWeapon(weaponEquipped.weaponDamage);
     }
 
+    public void AddArmor(Armor item)
+    {
+        armor = item;
+        defense = armor.armorDefense;
+    }
+
     public void UseItem(ConsumableItem item)
     {
         health += item.healthGain;
@@ -111,5 +135,52 @@ public class Player : MonoBehaviour
         {
             mana = maxMana;
         }
+    }
+
+    public int GetHealth()
+    {
+        return health;
+    }
+
+    public int GetMana()
+    {
+        return mana;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        canDamage = false;
+        health -= (damage - defense);
+        if(health <= 0)
+        {
+            animator.SetTrigger("Dead");
+            Invoke("ReloadScene", 3f);
+            isDead = true;
+        }
+        else
+        {
+            StartCoroutine(DamageCoroutine());
+        }
+    }
+
+    IEnumerator DamageCoroutine()
+    {
+        for (float i = 0; i < 0.6f; i += 0.2f)
+        {
+            sprite.enabled = false;
+            yield return new WaitForSeconds(0.1f);
+            sprite.enabled = true;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        canDamage = true;
+    }
+
+    void ReloadScene()
+    {
+        Knowledge.instance.gameObject.SetActive(true);
+        Knowledge.instance.knowledge = knowledge;
+        Knowledge.instance.transform.position = transform.position;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

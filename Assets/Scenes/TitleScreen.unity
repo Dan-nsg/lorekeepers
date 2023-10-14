@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 151669240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 198, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -298,10 +298,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press Any Button
+  m_text: Press Any Key
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a27054e3bbef43e43bf003bdbae5378c, type: 2}
-  m_sharedMaterial: {fileID: -8194881094088767507, guid: a27054e3bbef43e43bf003bdbae5378c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 22d97da5bede35c478a0b2ff85f056f7, type: 2}
+  m_sharedMaterial: {fileID: -1866796980299089998, guid: 22d97da5bede35c478a0b2ff85f056f7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -325,8 +325,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -710,7 +710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.5, y: -61.5}
+  m_AnchoredPosition: {x: 23.5, y: 127}
   m_SizeDelta: {x: 1075.5131, y: 380.1283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1947031606

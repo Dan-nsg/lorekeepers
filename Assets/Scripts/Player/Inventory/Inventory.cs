@@ -8,6 +8,7 @@ public class Inventory : MonoBehaviour
     public List<Weapons> weapons;
     public List<Keys> keys;
     public List<ConsumableItem> items;
+    public List<Armor> armors;
 
     void Awake() 
     {
