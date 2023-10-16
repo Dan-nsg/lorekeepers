@@ -4354,7 +4354,7 @@ GameObject:
   - component: {fileID: 876999725}
   - component: {fileID: 876999724}
   m_Layer: 5
-  m_Name: TMP_Gold
+  m_Name: TMP_Knowledge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4399,7 +4399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GOLD
+  m_text: KNOWLEDGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 22d97da5bede35c478a0b2ff85f056f7, type: 2}
   m_sharedMaterial: {fileID: -1866796980299089998, guid: 22d97da5bede35c478a0b2ff85f056f7, type: 2}

@@ -1,0 +1,3792 @@
+fileFormatVersion: 2
+guid: 802de805d8d05224a9a1f71045d8bc75
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Save Room_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 249
+        width: 256
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d5f71800c225a488d487f311ae51a3
+      internalID: 2089000923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 303
+        width: 256
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b209b98e68f53f4aa91bf261550e7d6
+      internalID: 610707285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_2
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 437
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02581423a087d1e4c87ccb8208b64cb5
+      internalID: -2018027818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 437
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d655bf1f132ac84787d6fa03769bc1e
+      internalID: -1101431503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_4
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 334
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b469de07bac6bc1419b51c1113e85843
+      internalID: 800882160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_5
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 334
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9221ec31286e59c42822030d5ea8ca70
+      internalID: -571541136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_6
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 322
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dd941660b08bb48a531958d76224ef
+      internalID: -1813407270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_7
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecba477a3be2e7949baaf5d6a7b0b523
+      internalID: -6685022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_8
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98f935e329223b4b8d259203c7e5e9e
+      internalID: -309245060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_9
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 322
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b41abeb949fd9468c1952091536208
+      internalID: -519509876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988ac4f3ed581c2458ae1ca69171c02a
+      internalID: 939527355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_11
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 322
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b5be516d738b04891336bab44765de
+      internalID: 727487245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 322
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4305bacd4b2994595cea1accc510b8
+      internalID: -2135661818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_13
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e2530bba3e815488f805bc56ff10d3
+      internalID: 564249914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_14
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c0e4cd56e26394ab1377e397d6b0e0
+      internalID: 583279824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_15
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772521bdae53d44e9a169552df3da65
+      internalID: -1456896845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 322
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1f9fe57efc2504cbb76940f65671a0
+      internalID: 2076197178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_17
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 322
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ede089f25205fb46863e9e41295bbcd
+      internalID: 430596453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_18
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d5133c8cd8ba640a5875be28470243
+      internalID: -290452353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_19
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 322
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598786167bbf5a24f80bdd1a8771c098
+      internalID: -894530923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_20
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ddef7fb89a3a428ac8d2cb6fe7432
+      internalID: 1501993072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3632f643e9cf740489f1c1805f1ffa5f
+      internalID: 2123090124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_22
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 294
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5fe48e27bc9f641bf55eba2b8f9934
+      internalID: 26704405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 311
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf821cac92cb4474fabd9c7eecb50760
+      internalID: 1597660595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_24
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 311
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6113910a926b91a4d91bba87ada2816a
+      internalID: -1899118588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_25
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 311
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299103a7fac05ae48b456aa2d6dcef8f
+      internalID: 1864642824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_26
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 311
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1343bef754849b64cb789f8024b05bbb
+      internalID: 513015766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_27
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 311
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9082cc75ea6cc154da7c7718039790ad
+      internalID: -2080980422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_28
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 311
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b041e0bd1989d284d9c64f3df81cd6d5
+      internalID: -2051081264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 310
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3db92646801f1a4ca21b41489f228cf
+      internalID: -680524722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_30
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 311
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8424ef9525f184d8f7ecd57770d538
+      internalID: 324204177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_31
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 311
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7eb6ccb5626914e9b14c73447b5d6c
+      internalID: -679780921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_32
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 311
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fba950da4285045aa775ec86b02af9
+      internalID: -1806166473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_33
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 311
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84006dc9117acc459540e3ee0a08497
+      internalID: -1244127057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_34
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 311
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055e0ee9ea6adbf42869102de2789c8a
+      internalID: 1551878650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_35
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 311
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b606655796569e49a9073358ef37262
+      internalID: 1205958520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_36
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2586860636a4a409721537c8c895a4
+      internalID: -1485953183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_37
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 300
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ee14c4800dd224a92d6ead6027096f
+      internalID: 1466348882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_38
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 300
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6378e6fd048d314e84266599da6243e
+      internalID: 1366586913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_39
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 300
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33875858e2fddd0418f62e38bf9c16b8
+      internalID: -36569745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_40
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 300
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5db236ebf5e4445b174e5e020fb28e
+      internalID: 82759415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_41
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 300
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bdd08ee36fe0c4185d0d6f8f1dcf50
+      internalID: 95711158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_42
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 300
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef37c910ac1df74b975abfa3c328694
+      internalID: -1803461490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_43
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 300
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb4477cbde00324fae481594e06f808
+      internalID: 644865559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_44
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 299
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a0655e9ff77d141b6356ba70dd8411
+      internalID: 1787408727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_45
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 300
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc8fd20d4b67be4b8a05bf533ef1bcd
+      internalID: -1629004400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_46
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 300
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e782bf40baf5624bb1230c89d7751e6
+      internalID: 1088218142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_47
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 300
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278ae47a4351f6e40b039cc18551850e
+      internalID: 854223366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_48
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 289
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a779f25ce59f34d83673bc4a400155
+      internalID: 267626019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_49
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 300
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5065a27050a72d14abefe634309926cb
+      internalID: 987930101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_50
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 300
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1c810376812734389e123cab08675d
+      internalID: -220709738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_51
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 300
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f248271f9a92544800da028388341a
+      internalID: 636132326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_52
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 298
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd6eb5030bd036479923a67a876cfbf
+      internalID: -1808994124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_53
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 251
+        width: 256
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cee32804c27f21468a8f84da44e62e8
+      internalID: -61115340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_54
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 290
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0a64926fa5d3b4bbd16fcf24cdbd13
+      internalID: -1671161831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_55
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 290
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3cf722168528a4fa5c7b7eeb3a492a
+      internalID: -561280171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_56
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 290
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464316619e962f54cb7d23862c4c4468
+      internalID: 488219875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_57
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 290
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ed53f667c908c499401f11d749e854
+      internalID: -1529985630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_58
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 290
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c9f8c1c2c784e48b7d270a196d238c
+      internalID: -381253700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_59
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 290
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6e9fd8f8536be49bbce552a7697474
+      internalID: -1189119483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_60
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 290
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3443168fab3a6f84e99a1265900168cb
+      internalID: -1096192014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_61
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 290
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541a07bd1e4706848852ea3692ae2b47
+      internalID: -614573087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_62
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 290
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bd923abc6962b4fa759e12c56aaee2
+      internalID: 290353540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_63
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 290
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e01628d4d94fe498f2afd9da412127
+      internalID: -1679615239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_64
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 290
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ca33cf92022db4c8678382e721abf3
+      internalID: -2112208539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_65
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 290
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2611348909f1041b10f49025124586
+      internalID: 585181518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_66
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 290
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e63f745d288e7740aba1663c8b1f7b8
+      internalID: -943365504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_67
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 290
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a702cc70b898354683424d0d4c2681e
+      internalID: 342439819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_68
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 290
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913ce4641790b974798b002018d70bcd
+      internalID: 167973142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_69
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 279
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bd0fa1f88219940bca997345714802
+      internalID: 683441458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_70
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 279
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3c42a3f6ead86489065f8700da1dc7
+      internalID: -1538127563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_71
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 279
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9a8dacdd5feb448bfc1cf2d7da7480
+      internalID: -1325494716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_72
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 279
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20691e7a5b10db74b8ed2f34a849efbb
+      internalID: 787525698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_73
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 277
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e932f459ce6a7064e9b2d65742e66cb0
+      internalID: -956431000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_74
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 279
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d2bb77694113d43877f876419440dc
+      internalID: 609254787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_75
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 279
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaa85a81e9d6584e8a1084ef4875366
+      internalID: 1781931726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_76
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 279
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c18fd953a40a3a4b9a77d470d681f73
+      internalID: 1669904060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_77
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 279
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e079b428da049b5428f9973a2f61bf07
+      internalID: 1120196811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_78
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 279
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57826aaa133bc5498e17a309864fb41
+      internalID: 1843685860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_79
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 277
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb627924bf2c1e64b9048a22d5037632
+      internalID: -46942262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_80
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 279
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc16e33617a7dca4da43bfb0180294fa
+      internalID: 1883595669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_81
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 279
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff08e3b9f5b1d7478109ec54dcb3df4
+      internalID: -1008201238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_82
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 279
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51331de855af514da537b29a108ae3f
+      internalID: 249343524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_83
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 268
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7fd8abd1701f741aa7b4757e250141
+      internalID: -748906687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_84
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 268
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af64dd46b9c089049827cc221f014de5
+      internalID: -1560609379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_85
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 268
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16db012aea98c5e49a304caa0a387c58
+      internalID: 1032180182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_86
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 268
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038d9d02e914fec4d8939723f8f0032d
+      internalID: -953150768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_87
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 268
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00f7b6c895a1ec43a9cd453114e92e2
+      internalID: -1159236323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_88
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 268
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306f74ba50a57de44ac902c4778b61ef
+      internalID: 1826726001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_89
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 268
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27036a5ca4f4ff04ea6bbb123911e97c
+      internalID: 826182597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_90
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 268
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437772cbf5a970847b76933f1915a960
+      internalID: -1628417415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_91
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 268
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ac7cc28743c0b4e85cac6222d24b4e
+      internalID: 723620260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_92
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 268
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a0af9fc34826d43a8e62c789addaf2
+      internalID: -1032889523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_93
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 268
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae11ac8d103af749b8876587639bd0c
+      internalID: 1955625750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_94
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 268
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51888b3ec72b94c45865b850119cc8ef
+      internalID: 837227661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_95
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a12ef0b0bd7c2c4691729d9805f7611
+      internalID: -758539901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_96
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 268
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e8683207623634db7856068a71ea39
+      internalID: -46280424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_97
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 268
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09cb9e31c18fe840b80a88731626ce3
+      internalID: 1262687537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_98
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 258
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8325bbd5865d7419007b698316c8cb
+      internalID: -666168904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_99
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 258
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca8fc869f52523478b0e8e8c7089f05
+      internalID: 1624124590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_100
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 258
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77622adf41e9bb46bf969f7d1dc6041
+      internalID: -713933762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_101
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 258
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c916803778b95d46b53bec412177931
+      internalID: 1868285155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_102
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 258
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63faaac563a04ab48b61f0855c0b2a83
+      internalID: 1145083093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_103
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 258
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f876ed981641c4a9ea21b1f8861b4c
+      internalID: 133847131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_104
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 258
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e48e27bfe048804a8e08c784721f191
+      internalID: -1743497938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_105
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 258
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25222d1b79627df4abe8d739cecc4a29
+      internalID: -1039403477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_106
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 256
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fcc356f7180f5448a427d1b60e72f7
+      internalID: -1426169869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_107
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 258
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66482feb11312684d965027a8f7a0570
+      internalID: -1519847250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_108
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 258
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47ecd63535303f48a58945a291ef4c6
+      internalID: 1659635601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_109
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 258
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432efff4eb5ea7842a9d93defccf1ec0
+      internalID: 401990399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_110
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 258
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29780473e3ecd6429e4c0297a6cc75e
+      internalID: 706276951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_111
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 247
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106cea22c09fc3f4594b85ad0d86bb7d
+      internalID: 1748524392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_112
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 247
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6c965316e9b3f4db930abc3fc53189
+      internalID: 715624388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_113
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 247
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709bca0215fb9e046bbd64125fe333c3
+      internalID: -511471919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_114
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 247
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c86c4084006840a59b5cdd7f5f109
+      internalID: 809193097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_115
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 247
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a77755c8c8fe1478cf55f91074866b
+      internalID: 1818899616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_116
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 247
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1508ea66ef60c0d40b53c7d6578e2ecc
+      internalID: 2070296126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_117
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 247
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0807f5aa51af6d141be988705f5d822c
+      internalID: 1190503637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_118
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 247
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07627b348a1fd4c49b23f0e2d3e19803
+      internalID: 1013737264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_119
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 247
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab62e890c6432724b8b947ac7a6047a5
+      internalID: -1156835954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_120
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 247
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef8d6ba40da6e842955394f3aee9bec
+      internalID: 1538586581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_121
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 247
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a404d5f11ffc947a8989bce6607a68
+      internalID: 670550049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_122
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 247
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978693ff0e215944980cfa81760913bf
+      internalID: 395160207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_123
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 245
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2de2c515e3a1944a56da9100cd3823
+      internalID: -382613407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_124
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 247
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8649138876906af4e90f1643beb91bd3
+      internalID: -2093400526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_125
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 247
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5da632d83675b4995af6257b730b69
+      internalID: -378586623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_126
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 256
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93ba320161667a45b4f15aa3064e574
+      internalID: -985756561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_127
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 204
+        width: 256
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525d0470c9e9f4e4aba00e1f7966a7e7
+      internalID: -2031859568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_128
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 236
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b8ba258f1346842bb991a2100db776
+      internalID: 739621521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_129
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 236
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e48ee0f7d7df5e448cf2d2756310abd
+      internalID: 1218727805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_130
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 236
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba9b0448a1877c4f9ca4f333166daf1
+      internalID: 595089756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_131
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 236
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813e7a9788071f547b79f6dc3f925ca2
+      internalID: 1842099432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_132
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 235
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d7ed465c9100b41b52448736c0ccd5
+      internalID: -1115099686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_133
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 236
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a74d952e61267439cf9f4658d880ab
+      internalID: 931509042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_134
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 236
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43acfaeb25c2b8a43b175c25232d094c
+      internalID: -1743866405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_135
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 236
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90618989f1a26ce459a8770e3aae6af9
+      internalID: -199132376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_136
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 236
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b708cfcf7ef3bd4fa00cd07b7d122e4
+      internalID: -839547394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_137
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 236
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2439f17747adb3b47a9f69600e299a64
+      internalID: 1461978717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_138
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 236
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434e1a16cd4a4b42a2f6f32b4df9736
+      internalID: -2146373114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_139
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 226
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734b99375d1bce242b4ec277c030175a
+      internalID: 1105411880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_140
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 226
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0384ef3deb7cd949b99de887f68ee7e
+      internalID: -179997794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_141
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8842e011bd5453a438817b2f3fbdc79a
+      internalID: 526188663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_142
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 226
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c188a3f1a41ab49992128a9f06fb40
+      internalID: -1678101427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_143
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 224
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3ca03dbe393a4d8f802cdf0cd188d
+      internalID: 1577382108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_144
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 226
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c177e54da10c19948a19bca4bf0e1749
+      internalID: -1452865883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_145
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4eb369f7d050042a05af9f19f9f037
+      internalID: 442206409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_146
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0cca08364737a459454e4cf9792bcf
+      internalID: 283278183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_147
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 226
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4a37a9c05e81e4e9f680ee805cd0ad
+      internalID: 1696322146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_148
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 226
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364a9db2c5c57b94d83ac70ea514f474
+      internalID: 785265584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_149
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 226
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1f2cb0af7de7142bd18c23da3815ff
+      internalID: -1645889445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_150
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714565fd8e62bbb42b0770547f03dfe5
+      internalID: -965884122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_151
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 226
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9bdd808fa75b849a588efe2b1d52df
+      internalID: 756536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_152
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2004657caebf742beaa1fda09563e4
+      internalID: 2026437448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_153
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 224
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1290a9338ab499543acb5c2ba110b8f2
+      internalID: 1419227744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_154
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 208
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1d5c3543ba8944a72adbe22e41d4a
+      internalID: -978890658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_155
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 215
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e182e449ad653438f7b39a1c3294ac
+      internalID: -1085648257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_156
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5939d156517e2d44a41dfb0e0781e96
+      internalID: -1748141101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_157
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31960f89a68354640a9533a2b4736d31
+      internalID: 1368842830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_158
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 215
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a484d9c342b3e3641b965939efe97b13
+      internalID: -1883941139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_159
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 3
+        width: 256
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048e242fe29a5c46a8c36898a0a33b2
+      internalID: -1490036814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_160
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 172
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e534392d43a3f49b7f49d8ae17221c
+      internalID: 1237635789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_161
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 154
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e77e52869590d43b500da49eb26f9c
+      internalID: -795857226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_162
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 53
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5678c06d18946b54bb5caf5f336290b5
+      internalID: 1371944428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_163
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 53
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd481aeca6dfb04982dda7738f05024
+      internalID: 530425134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_164
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 14
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c829f36e70fab4c469ee9390f9147e86
+      internalID: 807797162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Save Room_165
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 14
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dfad8e04e6d124eba74acbc852c1d7
+      internalID: -1206331131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1c67228eb39b71a4c8e88f2a32ce0fe0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Save Room_0: 2089000923
+      Save Room_1: 610707285
+      Save Room_10: 939527355
+      Save Room_100: -713933762
+      Save Room_101: 1868285155
+      Save Room_102: 1145083093
+      Save Room_103: 133847131
+      Save Room_104: -1743497938
+      Save Room_105: -1039403477
+      Save Room_106: -1426169869
+      Save Room_107: -1519847250
+      Save Room_108: 1659635601
+      Save Room_109: 401990399
+      Save Room_11: 727487245
+      Save Room_110: 706276951
+      Save Room_111: 1748524392
+      Save Room_112: 715624388
+      Save Room_113: -511471919
+      Save Room_114: 809193097
+      Save Room_115: 1818899616
+      Save Room_116: 2070296126
+      Save Room_117: 1190503637
+      Save Room_118: 1013737264
+      Save Room_119: -1156835954
+      Save Room_12: -2135661818
+      Save Room_120: 1538586581
+      Save Room_121: 670550049
+      Save Room_122: 395160207
+      Save Room_123: -382613407
+      Save Room_124: -2093400526
+      Save Room_125: -378586623
+      Save Room_126: -985756561
+      Save Room_127: -2031859568
+      Save Room_128: 739621521
+      Save Room_129: 1218727805
+      Save Room_13: 564249914
+      Save Room_130: 595089756
+      Save Room_131: 1842099432
+      Save Room_132: -1115099686
+      Save Room_133: 931509042
+      Save Room_134: -1743866405
+      Save Room_135: -199132376
+      Save Room_136: -839547394
+      Save Room_137: 1461978717
+      Save Room_138: -2146373114
+      Save Room_139: 1105411880
+      Save Room_14: 583279824
+      Save Room_140: -179997794
+      Save Room_141: 526188663
+      Save Room_142: -1678101427
+      Save Room_143: 1577382108
+      Save Room_144: -1452865883
+      Save Room_145: 442206409
+      Save Room_146: 283278183
+      Save Room_147: 1696322146
+      Save Room_148: 785265584
+      Save Room_149: -1645889445
+      Save Room_15: -1456896845
+      Save Room_150: -965884122
+      Save Room_151: 756536
+      Save Room_152: 2026437448
+      Save Room_153: 1419227744
+      Save Room_154: -978890658
+      Save Room_155: -1085648257
+      Save Room_156: -1748141101
+      Save Room_157: 1368842830
+      Save Room_158: -1883941139
+      Save Room_159: -1490036814
+      Save Room_16: 2076197178
+      Save Room_160: 1237635789
+      Save Room_161: -795857226
+      Save Room_162: 1371944428
+      Save Room_163: 530425134
+      Save Room_164: 807797162
+      Save Room_165: -1206331131
+      Save Room_17: 430596453
+      Save Room_18: -290452353
+      Save Room_19: -894530923
+      Save Room_2: -2018027818
+      Save Room_20: 1501993072
+      Save Room_21: 2123090124
+      Save Room_22: 26704405
+      Save Room_23: 1597660595
+      Save Room_24: -1899118588
+      Save Room_25: 1864642824
+      Save Room_26: 513015766
+      Save Room_27: -2080980422
+      Save Room_28: -2051081264
+      Save Room_29: -680524722
+      Save Room_3: -1101431503
+      Save Room_30: 324204177
+      Save Room_31: -679780921
+      Save Room_32: -1806166473
+      Save Room_33: -1244127057
+      Save Room_34: 1551878650
+      Save Room_35: 1205958520
+      Save Room_36: -1485953183
+      Save Room_37: 1466348882
+      Save Room_38: 1366586913
+      Save Room_39: -36569745
+      Save Room_4: 800882160
+      Save Room_40: 82759415
+      Save Room_41: 95711158
+      Save Room_42: -1803461490
+      Save Room_43: 644865559
+      Save Room_44: 1787408727
+      Save Room_45: -1629004400
+      Save Room_46: 1088218142
+      Save Room_47: 854223366
+      Save Room_48: 267626019
+      Save Room_49: 987930101
+      Save Room_5: -571541136
+      Save Room_50: -220709738
+      Save Room_51: 636132326
+      Save Room_52: -1808994124
+      Save Room_53: -61115340
+      Save Room_54: -1671161831
+      Save Room_55: -561280171
+      Save Room_56: 488219875
+      Save Room_57: -1529985630
+      Save Room_58: -381253700
+      Save Room_59: -1189119483
+      Save Room_6: -1813407270
+      Save Room_60: -1096192014
+      Save Room_61: -614573087
+      Save Room_62: 290353540
+      Save Room_63: -1679615239
+      Save Room_64: -2112208539
+      Save Room_65: 585181518
+      Save Room_66: -943365504
+      Save Room_67: 342439819
+      Save Room_68: 167973142
+      Save Room_69: 683441458
+      Save Room_7: -6685022
+      Save Room_70: -1538127563
+      Save Room_71: -1325494716
+      Save Room_72: 787525698
+      Save Room_73: -956431000
+      Save Room_74: 609254787
+      Save Room_75: 1781931726
+      Save Room_76: 1669904060
+      Save Room_77: 1120196811
+      Save Room_78: 1843685860
+      Save Room_79: -46942262
+      Save Room_8: -309245060
+      Save Room_80: 1883595669
+      Save Room_81: -1008201238
+      Save Room_82: 249343524
+      Save Room_83: -748906687
+      Save Room_84: -1560609379
+      Save Room_85: 1032180182
+      Save Room_86: -953150768
+      Save Room_87: -1159236323
+      Save Room_88: 1826726001
+      Save Room_89: 826182597
+      Save Room_9: -519509876
+      Save Room_90: -1628417415
+      Save Room_91: 723620260
+      Save Room_92: -1032889523
+      Save Room_93: 1955625750
+      Save Room_94: 837227661
+      Save Room_95: -758539901
+      Save Room_96: -46280424
+      Save Room_97: 1262687537
+      Save Room_98: -666168904
+      Save Room_99: 1624124590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
