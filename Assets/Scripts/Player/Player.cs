@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum PlayerSkills
+{
+    dash, doubleJump
+}
+
 public class Player : MonoBehaviour
 {
     public float maxSpeed;
@@ -10,12 +15,16 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
     public float fireRate;
     public Weapons weaponEquipped;
+    public Armor armor;
     public ConsumableItem item;
     public int maxHealth;
     public int maxMana;
     public int strength;
     public int defense;
     public int knowledge;
+    public float dashForce;
+    public bool doubleJumpSkill = false;
+    public bool dashSkill = false;
 
     private float playerNormalSpeed;
     private Rigidbody2D playerRigidBody;
@@ -28,10 +37,10 @@ public class Player : MonoBehaviour
     private float nextAttack;
     private int health;
     private int mana;
-    private Armor armor;
     private bool canDamage = true;
     private SpriteRenderer sprite;
     private bool isDead = false;
+    private bool dash = false;
 
     void Start()
     {
@@ -53,7 +62,7 @@ public class Player : MonoBehaviour
             if(onGround)
                 doubleJump = false;
             
-            if(Input.GetButtonDown("Jump") && (onGround || !doubleJump))
+            if(Input.GetButtonDown("Jump") && (onGround || (!doubleJump && doubleJumpSkill)))
             {
                 jump = true;
                 if(!doubleJump && !onGround)
@@ -62,6 +71,7 @@ public class Player : MonoBehaviour
 
             if(Input.GetButtonDown("Fire1") && Time.time > nextAttack && weaponEquipped != null)
             {
+                dash = false;
                 animator.SetTrigger("Attack");
                 attack.PlayAnimation(weaponEquipped.weaponAnimation);
                 nextAttack = Time.time + fireRate;
@@ -74,6 +84,12 @@ public class Player : MonoBehaviour
                 Inventory.inventory.RemoveItem(item);
                 FindAnyObjectByType<UIManager>().UpdateUI();
             }
+
+            if(Input.GetKeyDown(KeyCode.Q) && onGround && !dash && dashSkill)
+            {
+                playerRigidBody.velocity = Vector2.zero;
+                animator.SetTrigger("Dash");
+            }
         }
     }
 
@@ -83,7 +99,7 @@ public class Player : MonoBehaviour
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
 
-            if(canDamage)
+            if(canDamage && !dash)
                 playerRigidBody.velocity = new Vector2(horizontal * playerNormalSpeed, playerRigidBody.velocity.y);
 
             animator.SetFloat("Speed", Mathf.Abs(horizontal));
@@ -102,6 +118,11 @@ public class Player : MonoBehaviour
                 playerRigidBody.velocity = Vector2.zero;
                 playerRigidBody.AddForce(Vector2.up * jumpFoce);
                 jump = false;
+            }
+            if(dash)
+            {
+                int hforce = facingRight ? 1 : -1;
+                playerRigidBody.velocity = Vector2.left * dashForce * hforce;
             }
         }
     }
@@ -187,5 +208,27 @@ public class Player : MonoBehaviour
         Knowledge.instance.knowledge = knowledge;
         Knowledge.instance.transform.position = transform.position;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void DashTrue()
+    {
+        dash = true;
+    }
+
+    public void DashFalse()
+    {
+        dash = false;
+    }
+
+    public void SetPlayerSkill(PlayerSkills skills)
+    {
+        if(skills == PlayerSkills.dash)
+        {
+            dashSkill = true;
+        }
+        else if(skills == PlayerSkills.doubleJump)
+        {
+            doubleJumpSkill = true;
+        }
     }
 }
