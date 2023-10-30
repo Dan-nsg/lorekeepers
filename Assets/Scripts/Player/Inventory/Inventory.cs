@@ -10,6 +10,8 @@ public class Inventory : MonoBehaviour
     public List<ConsumableItem> items;
     public List<Armor> armors;
 
+    public ItemDatabase itemDatabase;
+
     void Awake() 
     {
         if(inventory == null)
@@ -23,10 +25,40 @@ public class Inventory : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
+
+    private void Start() 
+    {
+        LoadInventory();
+    }
+
+    void LoadInventory()
+    {
+        for(int i = 0; i < GameManager.gameManager.weaponID.Length; i++)
+        {
+            AddWeapon(itemDatabase.GetWeapon(GameManager.gameManager.weaponID[i]));
+        }
+        for(int i = 0; i < GameManager.gameManager.itemID.Length; i++)
+        {
+            AddItem(itemDatabase.GetConsumableItem(GameManager.gameManager.itemID[i]));
+        }
+        for(int i = 0; i < GameManager.gameManager.armorID.Length; i++)
+        {
+            AddArmor(itemDatabase.GetArmor(GameManager.gameManager.armorID[i]));
+        }
+        for(int i = 0; i < GameManager.gameManager.weaponID.Length; i++)
+        {
+            AddKey(itemDatabase.GetKey(GameManager.gameManager.keyID[i]));
+        }
+    }
     
     public void AddWeapon(Weapons weapon)
     {
         weapons.Add(weapon);
+    }
+
+    public void AddArmor(Armor armor)
+    {
+        armors.Add(armor);
     }
 
     public void AddKey(Keys key)
