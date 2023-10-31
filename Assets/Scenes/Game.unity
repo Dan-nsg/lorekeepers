@@ -2890,7 +2890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  mana: 50
+  mana: 0
   strength: 10
   playerPosX: -25
   playerPosY: -0.6
@@ -3359,7 +3359,7 @@ MonoBehaviour:
   armor: {fileID: 0}
   item: {fileID: 11400000, guid: b413c6e3008c0d146976c179c26e8675, type: 2}
   maxHealth: 100
-  maxMana: 50
+  maxMana: 25
   strength: 10
   defense: 0
   knowledge: 0

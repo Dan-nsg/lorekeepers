@@ -27,6 +27,22 @@ public class UIManager : MonoBehaviour
     private Player player;
     private bool isMessageActive = false;
     private float textTimer;
+    private PlayerControls playerControls;
+
+    private void Awake() 
+    {
+        playerControls = new PlayerControls();
+    }
+
+    private void OnEnable() 
+    {
+        playerControls.Enable();
+    }
+
+    private void OnDisable() 
+    {
+        playerControls.Disable();
+    }
 
     void Start()
     {
@@ -62,7 +78,7 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.I))
+        if(playerControls.Gameplay.OpenInventory.triggered)
         {
             pauseMenu = !pauseMenu;
             cursorIndex = 0;
@@ -95,7 +111,7 @@ public class UIManager : MonoBehaviour
                 cursorPosition = items[cursorIndex].transform.position;
                 cursor.position = new Vector3(cursorPosition.x - 75, cursorPosition.y, cursorPosition.z);
             }
-            if(Input.GetKeyDown(KeyCode.DownArrow))
+            if(playerControls.Gameplay.UIDown.triggered)
             {
                 if(!itemListActive && cursorIndex >= menuOptions.Length -1)
                 {
@@ -122,7 +138,7 @@ public class UIManager : MonoBehaviour
                     UpdateDescription();
                 }
             }
-            else if(Input.GetKeyDown(KeyCode.UpArrow))
+            else if(playerControls.Gameplay.UIUp.triggered)
             {
                 if(cursorIndex == 0)
                 {

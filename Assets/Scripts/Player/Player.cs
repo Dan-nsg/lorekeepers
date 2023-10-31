@@ -42,6 +42,22 @@ public class Player : MonoBehaviour
     private bool isDead = false;
     private bool dash = false;
     private GameManager gm;
+    private PlayerControls playerControls;
+    
+    private void Awake() 
+    {
+        playerControls = new PlayerControls();
+    }
+
+    private void OnEnable() 
+    {
+        playerControls.Enable();
+    }
+
+    private void OnDisable() 
+    {
+        playerControls.Disable();
+    }
 
     void Start()
     {
@@ -62,14 +78,14 @@ public class Player : MonoBehaviour
             if(onGround)
                 doubleJump = false;
             
-            if(Input.GetButtonDown("Jump") && (onGround || (!doubleJump && doubleJumpSkill)))
+            if(playerControls.Gameplay.Jump.triggered && (onGround || (!doubleJump && doubleJumpSkill)))
             {
                 jump = true;
                 if(!doubleJump && !onGround)
                     doubleJump = true;
             }
 
-            if(Input.GetButtonDown("Fire1") && Time.time > nextAttack && weaponEquipped != null)
+            if(playerControls.Gameplay.Attack.triggered && Time.time > nextAttack && weaponEquipped != null)
             {
                 dash = false;
                 animator.SetTrigger("Attack");
@@ -78,14 +94,14 @@ public class Player : MonoBehaviour
 
             }
 
-            if(Input.GetButtonDown("Fire3"))
+            if(playerControls.Gameplay.UseItem.triggered)
             {
                 UseItem(item);
                 Inventory.inventory.RemoveItem(item);
                 FindAnyObjectByType<UIManager>().UpdateUI();
             }
 
-            if(Input.GetKeyDown(KeyCode.Q) && onGround && !dash && dashSkill)
+            if(playerControls.Gameplay.Dash.triggered && onGround && !dash && dashSkill)
             {
                 playerRigidBody.velocity = Vector2.zero;
                 animator.SetTrigger("Dash");
@@ -237,7 +253,7 @@ public class Player : MonoBehaviour
         Vector3 playerPos = new Vector3(gm.playerPosX, gm.playerPosY, 0);
         transform.position = playerPos;
         maxHealth = gm.health;
-        maxHealth = gm.mana;
+        maxMana = gm.mana;
         playerNormalSpeed = maxSpeed;
         health = maxHealth;
         mana = maxMana;

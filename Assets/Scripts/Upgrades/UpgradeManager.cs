@@ -12,6 +12,22 @@ public class UpgradeManager : MonoBehaviour
     private bool upgradeActive;
     private Player player;
     private int cursorIndex;
+    private PlayerControls playerControls;
+
+    private void Awake() 
+    {
+        playerControls = new PlayerControls();
+    }
+
+    private void OnEnable() 
+    {
+        playerControls.Enable();
+    }
+
+    private void OnDisable() 
+    {
+        playerControls.Disable();
+    }
 
     private void Start() 
     {
@@ -20,7 +36,7 @@ public class UpgradeManager : MonoBehaviour
 
     private void Update() 
     {
-        if(Input.GetKeyDown(KeyCode.U))
+        if(playerControls.Gameplay.OpenUpgrades.triggered)
         {
             upgradeActive = !upgradeActive;
             cursorIndex = 0;
@@ -37,12 +53,12 @@ public class UpgradeManager : MonoBehaviour
 
         if(upgradeActive)
         {
-            if(Input.GetKeyDown(KeyCode.DownArrow))
+            if(playerControls.Gameplay.UIDown.triggered)
             {
                 UpdateText();
                 cursorIndex++;
             }
-            else if(Input.GetKeyDown(KeyCode.UpArrow))
+            else if(playerControls.Gameplay.UIUp.triggered)
             {
                 UpdateText();
                 cursorIndex--;
@@ -50,18 +66,39 @@ public class UpgradeManager : MonoBehaviour
 
             if(cursorIndex == 0)
             {
-                attributesText[0].text = "Life: " + player.maxHealth + ">" + (player.maxHealth + (player.maxHealth * 0.1f));
+                attributesText[0].text = "Life: " + player.maxHealth + ">" + Mathf.RoundToInt(player.maxHealth + (player.maxHealth * 0.1f));
                 attributesText[0].color = Color.yellow;
             }
             else if(cursorIndex == 1)
             {
-                attributesText[1].text = "Mana: " + player.maxMana + ">" + (player.maxMana + (player.maxMana * 0.1f));
+                attributesText[1].text = "Mana: " + player.maxMana + ">" + Mathf.RoundToInt(player.maxMana + (player.maxMana * 0.1f));
                 attributesText[1].color = Color.yellow;
             }
             else if(cursorIndex == 2)
             {
-                attributesText[2].text = "Strength: " + player.strength + ">" + (player.strength + (player.strength * 0.1f));
+                attributesText[2].text = "Strength: " + player.strength + ">" + Mathf.RoundToInt(player.strength + (player.strength * 0.1f));
                 attributesText[2].color = Color.yellow;
+            }
+
+            if(Input.GetButtonDown("Submit") && player.knowledge >= GameManager.gm.upgradeCost)
+            {
+                player.knowledge -= GameManager.gm.upgradeCost;
+                GameManager.gm.upgradeCost += (GameManager.gm.upgradeCost / 2);
+                if(cursorIndex == 0)
+                {
+                    player.maxHealth += (int)(player.maxHealth * 0.1f);
+                }
+                else if(cursorIndex == 1)
+                {
+                    player.maxMana += (int)(player.maxMana * 0.1f);
+                }
+                else if(cursorIndex == 2)
+                {
+                    player.strength += (int)(player.strength * 0.1f);
+                }
+
+                UpdateText();
+                FindAnyObjectByType<UIManager>().UpdateUI();
             }
         }
     }
