@@ -21,6 +21,7 @@ public class WeaponDrop : MonoBehaviour
         {
             player.AddWeapon(weapon);
             Inventory.inventory.AddWeapon(weapon);
+            FindObjectOfType<UIManager>().SetMessage(weapon.collectWeaponMessage);
             Destroy(gameObject);
         }
     }

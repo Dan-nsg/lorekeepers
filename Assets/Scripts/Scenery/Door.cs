@@ -25,6 +25,10 @@ public class Door : MonoBehaviour
                 sprite.sprite = doorOpen;
                 boxCollider.enabled = false;
             }
+            else
+            {
+                FindAnyObjectByType<UIManager>().SetMessage("You need the " + key.keyName);
+            }
         }
     }
 }

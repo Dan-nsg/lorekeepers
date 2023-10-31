@@ -8,7 +8,7 @@ public class SavePoint : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            GameManager.gameManager.Save();
+            GameManager.gm.Save();
         }
     }
 }

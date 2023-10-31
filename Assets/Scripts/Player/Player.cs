@@ -41,17 +41,17 @@ public class Player : MonoBehaviour
     private SpriteRenderer sprite;
     private bool isDead = false;
     private bool dash = false;
+    private GameManager gm;
 
     void Start()
     {
         playerRigidBody = GetComponent<Rigidbody2D>();
-        playerNormalSpeed = maxSpeed;
         animator = GetComponent<Animator>();
         attack = GetComponentInChildren<Attack>();
-        health = maxHealth;
-        mana = maxMana;
         sprite = GetComponent<SpriteRenderer>();
-        FindAnyObjectByType<UIManager>().UpdateUI();
+        
+        gm = GameManager.gm;
+        SetPlayer();
     }
 
     private void Update() 
@@ -230,5 +230,24 @@ public class Player : MonoBehaviour
         {
             doubleJumpSkill = true;
         }
+    }
+
+    public void SetPlayer()
+    {
+        Vector3 playerPos = new Vector3(gm.playerPosX, gm.playerPosY, 0);
+        transform.position = playerPos;
+        maxHealth = gm.health;
+        maxHealth = gm.mana;
+        playerNormalSpeed = maxSpeed;
+        health = maxHealth;
+        mana = maxMana;
+        strength = gm.strength;
+        knowledge = gm.knowledge;
+        doubleJumpSkill = gm.canDoubleJump;
+        dashSkill = gm.canBackDash;
+        if(gm.currentArmorID > 0)
+            AddArmor(Inventory.inventory.itemDatabase.GetArmor(gm.currentArmorID));
+        if(gm.currentWeaponID > 0)
+            AddWeapon(Inventory.inventory.itemDatabase.GetWeapon(gm.currentWeaponID));
     }
 }

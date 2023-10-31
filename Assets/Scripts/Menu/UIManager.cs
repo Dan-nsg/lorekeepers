@@ -18,12 +18,15 @@ public class UIManager : MonoBehaviour
     public Scrollbar scrollVertical;
     public TextMeshProUGUI healthText, manaText, strengthText, attackText, defenseText;
     public TextMeshProUGUI healthUI, manaUI, knowledgeUI, potionUI;
+    public TextMeshProUGUI messageText;
 
     private bool pauseMenu = false;
     private int cursorIndex = 0;
     private Inventory inventory;
     private bool itemListActive = false;
     private Player player;
+    private bool isMessageActive = false;
+    private float textTimer;
 
     void Start()
     {
@@ -33,6 +36,32 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
+        if (isMessageActive)
+        {
+            Color color = messageText.color;
+            color.a += 2f * Time.deltaTime;
+            messageText.color = color;
+            if(color.a >= 1)
+            {
+                isMessageActive = false;
+                textTimer = 0;
+            }
+        }
+        else if(!isMessageActive)
+        {
+            textTimer += Time.deltaTime;
+            if(textTimer >= 2f)
+            {
+               Color color = messageText.color;
+                color.a += 2f * Time.deltaTime;
+                messageText.color = color;
+                if(color.a >= 0)
+                {
+                    messageText.text = "";
+                } 
+            }
+        }
+
         if(Input.GetKeyDown(KeyCode.I))
         {
             pauseMenu = !pauseMenu;
@@ -233,5 +262,14 @@ public class UIManager : MonoBehaviour
         manaUI.text = player.GetMana() + " / " + player.maxMana;
         knowledgeUI.text = "Knowledge: " + player.knowledge;
         potionUI.text = "x" + inventory.CountItems(player.item);
+    }
+
+    public void SetMessage(string message)
+    {
+        messageText.text = message;
+        Color color = messageText.color;
+        color.a = 0;
+        messageText.color = color;
+        isMessageActive = true;
     }
 }

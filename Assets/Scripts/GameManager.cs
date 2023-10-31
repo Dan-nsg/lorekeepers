@@ -26,7 +26,7 @@ class PlayerData
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager gameManager;
+    public static GameManager gm;
     
     public int health = 100;
     public int mana = 50;
@@ -41,24 +41,26 @@ public class GameManager : MonoBehaviour
     public int currentWeaponID;
     public int currentArmorID;
     public bool canDoubleJump = false;
-    public bool canSpinDash = false;
+    public bool canBackDash = false;
 
     private string filePath;
 
     private void Awake() 
     {
-        if(gameManager == null)
+        if(gm == null)
         {
-            gameManager = this;
+            gm = this;
         }
-        else if(gameManager != null)
+        else if(gm != null)
         {
-            Destroy(gameManager);
+            Destroy(gm);
         }
 
         DontDestroyOnLoad(gameObject);
 
         filePath = Application.persistentDataPath + "/playerInfo.dat";
+
+        Load();
     }
 
     public void Save()
@@ -77,17 +79,17 @@ public class GameManager : MonoBehaviour
 
         for(int i = 0; i < weaponID.Length; i++)
         {
-            itemID[i] = Inventory.inventory.weapons[i].weaponID;
+            weaponID[i] = Inventory.inventory.weapons[i].weaponID;
         }
 
         for(int i = 0; i < armorID.Length; i++)
         {
-            itemID[i] = Inventory.inventory.armors[i].armorID;
+            armorID[i] = Inventory.inventory.armors[i].armorID;
         }
 
         for(int i = 0; i < keyID.Length; i++)
         {
-            itemID[i] = Inventory.inventory.keys[i].keyID;
+            keyID[i] = Inventory.inventory.keys[i].keyID;
         }
 
         BinaryFormatter bf = new BinaryFormatter();
@@ -115,8 +117,38 @@ public class GameManager : MonoBehaviour
         data.keyID = keyID;
 
         bf.Serialize(file, data);
+
         file.Close();
 
         Debug.Log("Game Saved!");
+        FindAnyObjectByType<UIManager>().SetMessage("Game Saved!");
+    }
+
+    public void Load()
+    {
+        if(File.Exists(filePath))
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(filePath, FileMode.Open);
+
+            PlayerData data = (PlayerData)bf.Deserialize(file);
+            file.Close();
+
+            health = data.health;
+            mana = data.mana;
+            strength = data.strength;
+            playerPosX = data.playerPosX;
+            playerPosY = data.playerPosY;
+            knowledge = data.knowledge;
+            upgradeCost = data.upgradeCost;
+            currentArmorID = data.currentArmorID;
+            currentWeaponID = data.currentWeaponID;
+            canDoubleJump = data.canDoubleJump;
+            canBackDash = data.canBackDash;
+            itemID = data.itemID;
+            weaponID = data.weaponID;
+            armorID = data.armorID;
+            keyID = data.keyID;
+        }
     }
 }

@@ -20,6 +20,7 @@ public class KeyDrop : MonoBehaviour
         if(player != null)
         {
             Inventory.inventory.AddKey(key);
+            FindAnyObjectByType<UIManager>().SetMessage(key.keyMessage);
             Destroy(gameObject);
         }
     }
